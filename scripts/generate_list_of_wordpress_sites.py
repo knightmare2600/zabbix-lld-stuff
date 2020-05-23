@@ -1,5 +1,14 @@
 #!/usr/bin/python3
-
+# File: generate_list_of_wordpress_sites.py
+# Usage: Call from userparameter file to get list off all web sites.
+#        Disable the checks on sites that are not wordpress.
+# Version: 2.0
+# Author: Jeroen Baten, jbaten@i2rs.nl
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
+#
 # USE LLD to create item prototypes based on domain
 # use trapper to send values into item prototypes
 # 20200522 J.Baten Rewrite from bash to python3
